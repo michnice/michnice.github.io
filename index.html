@@ -1,83 +1,44 @@
-<!DOCTYPE html> <!-- Le decimos el tipo de versión de HTML -->
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <!-- color verde: atributo -->
-    <title>Mi Primera Página</title>  
+    <meta charset="UTF-8"> 
+    <title>My Favorite TV Shows</title>  
     <script src="https://kit.fontawesome.com/155f5050d6.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="images/png" href="images/cheems.png">
+  <link rel="icon" type="images/png" href="cheemsa.jpg">
 </head>
 <body>
     <main id="h1">
-        <h1>Mi página web</h1><hr>
-        El header se usa para mostrar información introductoria: títulos, links de 
-        navegación, etc.
+        <h1>My Favorite TV Shows</h1><hr>
+        There are a lot of great TV shows out there. Let's take a look at some of my favorite ones.
     </main>
-    <p>Hola, este es un nuevo párrafo.</p>
-    Acabo de crear un salto de línea.<br>
-    Ahora vamos a hacer una lista ordenada:
     <ol>
-        <li>Objeto 1</li>
-        <li>Objeto 2</li>
-        <li>...</li>
+        <li id=1>Dark <br>
+          <a href="https://www.netflix.com/co-en/title/80100172" target="=_blank"><img src="dark.jpg" alt="Dark series" width="100"></a>
+        </li>
+        <li id=2>Queen's Gambit<br>
+          <a href="https://www.netflix.com/co-en/title/80234304" target="=_blank"><img src="queen.jpg" alt="Queen's Gambit series" width="100"></a>
+        </li>
+        <li id=3>The Imitation Game<br>
+          <a href="https://www.netflix.com/co-en/title/70295172" target="=_blank"><img src="imitation.jpg" alt="The Imitation Game Series" width="100"></a>
+        </li>
     </ol>
-    Ahora una lista desordenada:
-    <ul>
-        <li>¿Soy el primero o el segundo?</li>
-        <li>No lo sé...</li>
-    </ul>
-    Ahora una imagen:<br><br>
-    <img id="cheems" src="images/cheems.png" alt="Cheems" title="Cheems"><br>
-
-    Ahora vamos a poner unos links:
-    <nav>
-        <ul>
-            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
-            <li><a href="https://www.netflix.com/co/">Netflix</a></li>
-        </ul>
-    </nav><hr>
-    Utilizamos figure, con el que le ponemos nombre a la imagen y también modificamos su tamaño:
-    <figure>
-        <img src="images/cheems.png" width="25" alt="Cheems" title="Cheems">
-        <figcaption> Cheems </figcaption>
-    </figure>
-
-    Ahora unos íconos:
-    <i class="fas fa-thumbs-up" aria-label="Me gusta"></i>
-    <footer>
-        &copy; Aquí se supone que va información sobre copyright, documentos relacionados y enlaces
-        a redes sociales.<br>
-    </footer> <br>
-    Para ir al principio de la página pulsa
-    <a href="#h1">aquí</a><br>
-
-    Para ir a la primer imagen de Cheems pulsa
-    <a href="#cheems">Cheems</a><br><br>
-    Este es un texto que estoy escribiendo con el fin de producir más líneas porque necesito comprobar si el tag que acabo de diseñar sí direcciona a la imagen de Cheems.
-    <br><br>
-    <address>
-        Miguel Ángel<br>
-        trocxas14@gmail.com
-    </address>
-
-    <blockquote>
-        "Este texto está identado a propósito."
-    </blockquote>
-
-    <h2>Otra parte de mi página web</h2><hr>
-    Vamos a citar un link:<br>
-    Mejor dirígete al enlace de StatsRoyale: 
-    <cite><a href="https://statsroyale.com/">Stats Royale</a></cite><br>
-
-    Ahora veamos las abreviaciones: Para <abbr title="Lunes">Lun</abbr> y así sucesivamente.<br><br>
-
-    Con algo de código tenemos: <code>Hello World</code> necesito comer a las <time>09:00</time> pm.<br>
-
-    Ahora un poco de matemáticas:<br>
-    a<sup>2</sup>+b<sup>2</sup> = c<sup>2</sup>
-    <nav>
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" aria-label="Facebook"></i></a>|
-        <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter" aria-label="Twitter"></i></a>|
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
-    </nav>
+  <h2>
+    Favorite TV Show: The Imitation Game
+  </h2>
+    My favorite TV show is The Imitation Game because:
+  <ul>
+    <li>It's about the history behind the first computer, I love all about technology.</li>
+    <li>It shows that mathematicians are not only involved with numbers.
+    </li>
+    <li>
+      Everything was based on a very exciting field of mathematics, cryptography.
+    </li>
+  </ul>
+  If you had to choose a TV show between the three I mentioned, which one would you choose?
+  <ul>
+    <li><a href="#1">Dark</a></li>
+    <li><a href="#2">Queen's Gambit</a></li>
+    <li><a href="#3">The Imitation Game</a>
+  </ul>
 </body>
 </html>
